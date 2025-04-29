@@ -45,7 +45,7 @@ export function Swatchgrid({ fontFamily }) {
 
     return (
         <div className="m-10 w-5x1 fontdropdown">
-            <div className="my-4 flex">
+            <div className="my-4 flex flex-wrap">
                 <div className="w-30 mr-8">
                     <SwatchColor inputColor={inputColor} setInputColor={setInputColor} />
                 </div>

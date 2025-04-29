@@ -9,6 +9,7 @@ export function SwatchColor({ inputColor, setInputColor }) {
 
     return (
         <input
+            className='shadow-md'
             type="text"
             value={inputColor}
             onChange={handleChange}
@@ -19,6 +20,8 @@ export function SwatchColor({ inputColor, setInputColor }) {
                 borderRadius: '4px',
                 width: '100%',
                 boxSizing: 'border-box',
+                color: 'black',
+                border: '1px solid black'
             }}
         />
     );
