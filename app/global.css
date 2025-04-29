@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+li.headerlink {
+    display: inline-block;
+    margin: 20px;
+}
+html {
+    background: #e3e6e6;
+}
+body {
+    background: #eaeded;
+}
+.fontdropdown {
+    color: black;
+}
+
+h1 {
+    font-size: 6vw;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 1.6vw;
+    font-weight: 500;
+}
