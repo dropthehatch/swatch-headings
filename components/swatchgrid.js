@@ -16,7 +16,7 @@ function isValidHex(color) {
 }
 
 
-export function Swatchgrid() {
+export function Swatchgrid({ fontFamily }) {
     const [selectedFont, setSelectedFont] = useState('Arial');
     const [inputColor, setInputColor] = useState('#3498db');
     const [text, setText] = useState('');

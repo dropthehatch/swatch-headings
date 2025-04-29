@@ -16,7 +16,7 @@ export default function App() {
     <main>
       <Header />
       <Swatchgrid fontFamily={selectedFont} />
-      <FontSizes fontFamily={selectedFont} text={text || "Preview Text"}  />
+      <FontSizes fontFamily={selectedFont} />
     </main>
   );
 }

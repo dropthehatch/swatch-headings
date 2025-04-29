@@ -47,7 +47,7 @@ export function HeadingGenerator({ text, selectedFont }) {
     );
 }
 
-export function FontSizes() {
+export function FontSizes({ fontFamily }) {
     const [selectedFont, setSelectedFont] = useState('Arial');
     const [text, setText] = useState('');
 
